@@ -1,0 +1,186 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #262bff;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Bungee Spice", cursive;
+}
+
+li {
+  text-align: center;
+  font-family: "Bungee Spice", cursive;
+}
+span {
+  font-size: 40px;
+  color: white;
+  font-family: "Noto Sans Display", sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+p {
+  color: white;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.divHeaderPadre {
+  display: flex;
+  background-color: #0004fa;
+  justify-content: center;
+}
+
+.menu {
+  padding: 20px;
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 50px;
+  padding: 0px 50px 0px 50px;
+}
+
+.sectionC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 665px;
+  background-image: url("./img/bandera.jpg");
+}
+.sectionC img {
+  width: 300px;
+  height: 300px;
+}
+
+.divBoton {
+  padding: 20px;
+}
+.divBoton button {
+  background-color: yellow;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  border-radius: 4px;
+}
+.divBoton button:hover {
+  cursor: pointer;
+}
+.section1 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.divP {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.section1 p {
+  font-size: 30px;
+  text-align: justify;
+}
+.section1 img {
+  border-radius: 4rem;
+}
+
+.divCards {
+  display: flex;
+  padding: 28px 28px;
+  margin-top: 28px;
+}
+.divCardImg {
+  margin-top: 8px;
+  text-align: center;
+}
+.Card1 {
+  flex: 1 1 auto;
+}
+.Card2 {
+  flex: 1 1 auto;
+}
+.Card3 {
+  flex: 1 1 auto;
+}
+.divElementos {
+  text-align: center;
+}
+.divCardImg img {
+  width: 350px;
+  height: 200px;
+  border-radius: 4px;
+}
+.divVisibilidad {
+  display: none;
+}
+
+.divVisibilidad2 {
+  display: none;
+}
+.divVisibilidad3 {
+  display: none;
+}
+.divDescripcion {
+  background-color: #0004fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin-left: 44px;
+  height: 300px;
+  border-radius: 8px;
+}
+.divPdescripcion {
+  height: 280px;
+  width: 320px;
+  word-wrap: break-word;
+}
+.contentP {
+  text-align: center;
+  border-radius: 8px;
+  height: 100%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+footer {
+  background-color: black;
+  text-align: right;
+}
+footer span {
+  font-size: 15px;
+}
+.divSpan {
+  padding: 5px;
+}
+@media (max-width: 640px) {
+  .divHeaderPadre {
+    display: none;
+  }
+  .section1 {
+    flex-direction: column;
+  }
+  .divCards {
+    flex-direction: column;
+  }
+  h1,
+  h2 {
+    font-size: 50px !important;
+  }
+  .divP {
+    padding: 35px;
+  }
+  .section1 img {
+    padding: 35px !important;
+    text-align: center;
+  }
+}
