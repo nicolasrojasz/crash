@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #262bff;
+  background-color: #262bff !important;
 }
 h1,
 h2,
@@ -28,23 +28,52 @@ p {
   font-family: "Noto Sans Display", sans-serif;
 }
 
-.divHeaderPadre {
+.divContainerNav{
   display: flex;
-  background-color: #0004fa;
-  justify-content: center;
+  background-color:rgb(24, 30, 185);
+  justify-content: space-between;
+  height: 80px;
 }
 
-.menu {
-  padding: 20px;
+.nav{
+  width: 500px;
+  height: 90px;
+}
+.ulElementos{
+
   display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-self: center;
   list-style: none;
 }
-
-a {
+.ulElementos li button a{
   text-decoration: none;
-  font-size: 50px;
-  padding: 0px 50px 0px 50px;
+  font-size: 20px;
+  color: black;
+
 }
+.ulElementos li button{
+  border: none;
+  border-radius: 0.2rem;
+  padding: 10px 15px;
+  background-color: white;
+}
+.ulElementos li button:hover{
+  background-color: #d5d1e9;
+}
+
+
+.divContainerNav img{
+  padding: 10px 10px;
+  width: 150px ; 
+  height: 80px ;
+  border-radius: 2rem;
+
+}
+
+
+
 
 .sectionC {
   display: flex;
@@ -53,7 +82,7 @@ a {
   align-items: center;
   width: auto;
   height: 665px;
-  background-image: url("./img/bandera.jpg");
+  background-image: url("../../public/img/bandera.jpg");
 }
 .sectionC img {
   width: 300px;
@@ -61,7 +90,7 @@ a {
 }
 
 .divBoton {
-  padding: 20px;
+    padding: 8px;
 }
 .divBoton button {
   background-color: yellow;
@@ -77,6 +106,7 @@ a {
 .section1 {
   display: flex;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .divP {
@@ -91,65 +121,6 @@ a {
 }
 .section1 img {
   border-radius: 4rem;
-}
-
-.divCards {
-  display: flex;
-  padding: 28px 28px;
-  margin-top: 28px;
-}
-.divCardImg {
-  margin-top: 8px;
-  text-align: center;
-}
-.Card1 {
-  flex: 1 1 auto;
-}
-.Card2 {
-  flex: 1 1 auto;
-}
-.Card3 {
-  flex: 1 1 auto;
-}
-.divElementos {
-  text-align: center;
-}
-.divCardImg img {
-  width: 350px;
-  height: 200px;
-  border-radius: 4px;
-}
-.divVisibilidad {
-  display: none;
-}
-
-.divVisibilidad2 {
-  display: none;
-}
-.divVisibilidad3 {
-  display: none;
-}
-.divDescripcion {
-  background-color: #0004fa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  margin-left: 44px;
-  height: 300px;
-  border-radius: 8px;
-}
-.divPdescripcion {
-  height: 280px;
-  width: 320px;
-  word-wrap: break-word;
-}
-.contentP {
-  text-align: center;
-  border-radius: 8px;
-  height: 100%;
-  font-size: 20px;
-  text-align: justify;
 }
 
 footer {
