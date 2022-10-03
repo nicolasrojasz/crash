@@ -7,9 +7,10 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+label {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: "Bungee Spice", cursive;
 }
 
@@ -27,54 +28,50 @@ p {
   color: white;
   font-family: "Noto Sans Display", sans-serif;
 }
-
-.divContainerNav{
+/* CSS NAVBAR */
+.divContainerNav {
   display: flex;
-  background-color:rgb(24, 30, 185);
+  background-color: rgb(24, 30, 185);
   justify-content: space-between;
   height: 80px;
+
 }
 
-.nav{
+.nav {
   width: 500px;
   height: 90px;
 }
-.ulElementos{
-
+.ulElementos {
   display: flex;
   justify-content: space-around;
   width: 100%;
   align-self: center;
   list-style: none;
 }
-.ulElementos li button a{
+.ulElementos li button a {
   text-decoration: none;
   font-size: 20px;
   color: black;
-
 }
-.ulElementos li button{
+.ulElementos li button {
   border: none;
   border-radius: 0.2rem;
   padding: 10px 15px;
   background-color: white;
 }
-.ulElementos li button:hover{
+.ulElementos li button:hover {
   background-color: #d5d1e9;
 }
 
-
-.divContainerNav img{
+.divContainerNav img {
   padding: 10px 10px;
-  width: 150px ; 
-  height: 80px ;
-  border-radius: 2rem;
-
+  width: 120px;
+  height: 80px;
+  border-radius: 1rem;
 }
+/* ------------------------------------------------ */
 
-
-
-
+/* CSS index */
 .sectionC {
   display: flex;
   flex-direction: column;
@@ -89,8 +86,14 @@ p {
   height: 300px;
 }
 
+.contentSection1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
 .divBoton {
-    padding: 8px;
+  padding: 8px;
 }
 .divBoton button {
   background-color: yellow;
@@ -105,7 +108,8 @@ p {
 }
 .section1 {
   display: flex;
-  margin-top: 50px;
+  padding: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -120,7 +124,76 @@ p {
   text-align: justify;
 }
 .section1 img {
-  border-radius: 4rem;
+  border-radius: 1rem;
+}
+
+/* ---------------------------------------- */
+
+/* CSS TABLES */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+}
+.h1FormCliente {
+  padding: 0px;
+}
+.table {
+  text-align: center;
+  background-color: #d5d1e9;
+}
+
+.table tbody tr td button {
+  margin-left: 20px;
+}
+.divBotonCrear {
+  padding: 10px 0px;
+  text-align: right !important;
+}
+
+/* CSS FORMS */
+
+#container2{
+  height: 900px !important;
+}
+.divCard {
+  width: 50%;
+  margin-top: 6px;
+  background-color:#E0D3F5 ;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: black 1px 2px 8px;
+}
+
+.form {
+  text-align: center;
+  width: 100%;
+
+}
+.divH1SpanFormCliente {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.h1FormCliente2{
+  margin-top: 36px;
+}
+.spanFormCliente {
+  font-size: 25px;
+}
+.form div {
+  text-align: left;
+}
+
+.form div label {
+  font-size: 20px;
+  padding: 4px 0px;
+}
+
+.form div input {
+  height: 50px;
 }
 
 footer {
